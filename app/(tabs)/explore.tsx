@@ -1,18 +1,18 @@
-import { StyleSheet  } from "react-native";
+import { StyleSheet } from 'react-native'
 
 export default function TabTwoScreen() {
-  return <></>;
+  return <></>
 }
 
 const styles = StyleSheet.create({
   headerImage: {
-    color: "#808080",
+    color: '#808080',
     bottom: -90,
     left: -35,
-    position: "absolute",
+    position: 'absolute',
   },
   titleContainer: {
-    flexDirection: "row",
+    flexDirection: 'row',
     gap: 8,
   },
-});
+})
