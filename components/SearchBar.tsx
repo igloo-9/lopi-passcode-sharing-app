@@ -17,7 +17,7 @@ export default function SearchBar() {
           placeholder="Search..."
           placeholderTextColor="#888"
         />
-        <TouchableOpacity style={styles.profileButton}>
+        <TouchableOpacity style={styles.settingsButton}>
           <Image
             source={require('@/public/profile-placeholder.svg')}
             style={styles.profileImage}
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     marginRight: 10,
   },
-  profileButton: {
+  settingsButton: {
     width: 50,
     height: 50,
     borderRadius: 100,
